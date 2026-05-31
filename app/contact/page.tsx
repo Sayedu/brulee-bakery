@@ -25,30 +25,24 @@ export default function ContactPage() {
         {/* Info */}
         <div className="space-y-8">
           <div className="card p-8 space-y-5">
-            <h2 className="text-lg font-semibold" style={{ color: "#7c5c3a" }}>Visit Us</h2>
+            <h2 className="text-lg font-semibold" style={{ color: "#7c5c3a" }}>Find Us</h2>
             <div className="space-y-4 text-sm" style={{ color: "#a87d52" }}>
               <div>
-                <p className="font-medium" style={{ color: "#3b2f1e" }}>📍 Address</p>
-                <p>142 Maple Street, Brooklyn, NY 11201</p>
-              </div>
-              <div>
-                <p className="font-medium" style={{ color: "#3b2f1e" }}>⏰ Hours</p>
-                <p>Tuesday – Sunday</p>
-                <p>7:00 AM – 6:00 PM</p>
-              </div>
-              <div>
-                <p className="font-medium" style={{ color: "#3b2f1e" }}>📞 Phone</p>
-                <a href="tel:+15551234567" className="hover:underline">(555) 123-4567</a>
-              </div>
-              <div>
                 <p className="font-medium" style={{ color: "#3b2f1e" }}>✉ Email</p>
-                <a href="mailto:hello@bruleebakery.com" className="hover:underline">
-                  hello@bruleebakery.com
+                <a href="mailto:bruleebakery6@gmail.com" className="hover:underline">
+                  bruleebakery6@gmail.com
                 </a>
               </div>
               <div>
                 <p className="font-medium" style={{ color: "#3b2f1e" }}>📸 Instagram</p>
-                <a href="#" className="hover:underline">@bruleebakery</a>
+                <a
+                  href="https://www.instagram.com/brulee_._bakery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  @brulee_._bakery
+                </a>
               </div>
             </div>
           </div>
@@ -81,7 +75,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <label>Subject</label>
-                <input type="text" placeholder="Custom cake inquiry, feedback..." required />
+                <input type="text" placeholder="Inquiry, feedback..." required />
               </div>
               <div>
                 <label>Message</label>

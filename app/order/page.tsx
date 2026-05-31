@@ -1,7 +1,7 @@
 import { asset } from "@/lib/basePath";
 
-const IG_HANDLE = "bruleebakery";
-const IG_DM_URL = `https://ig.me/m/${IG_HANDLE}`;
+const IG_HANDLE = "brulee_._bakery";
+const IG_DM_URL = "https://www.instagram.com/brulee_._bakery";
 
 const steps = [
   { n: "1", text: "Tap the button below to open our Instagram DM." },

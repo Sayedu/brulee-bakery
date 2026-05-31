@@ -32,7 +32,7 @@ export default function Home() {
           Brooklyn, NY &middot; Available Tue–Sun, 7am–6pm
         </p>
         <a
-          href="https://ig.me/m/bruleebakery"
+          href="https://www.instagram.com/brulee_._bakery"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary inline-flex items-center gap-2"
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
 
             <a
-              href="https://ig.me/m/bruleebakery"
+              href="https://www.instagram.com/brulee_._bakery"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-center inline-flex items-center justify-center gap-2"
@@ -116,7 +116,7 @@ export default function Home() {
           homemade vanilla custard, and classic wafers. Simple, comforting, unforgettable.
         </p>
         <a
-          href="https://ig.me/m/bruleebakery"
+          href="https://www.instagram.com/brulee_._bakery"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 mt-8 btn-primary"

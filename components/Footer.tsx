@@ -16,8 +16,8 @@ export default function Footer() {
         </div>
         <p>© {new Date().getFullYear()} Brûlée Bakery. Made with love &amp; butter.</p>
         <div className="flex gap-6">
-          <a href="tel:+15551234567" className="hover:underline">📞 (555) 123-4567</a>
-          <a href="mailto:hello@bruleebakery.com" className="hover:underline">✉ hello@bruleebakery.com</a>
+          <a href="mailto:bruleebakery6@gmail.com" className="hover:underline">✉ bruleebakery6@gmail.com</a>
+          <a href="https://www.instagram.com/brulee_._bakery" target="_blank" rel="noopener noreferrer" className="hover:underline">📸 @brulee_._bakery</a>
         </div>
       </div>
     </footer>
