@@ -29,7 +29,7 @@ export default function Home() {
           Creamy, dreamy & made fresh every day.
         </p>
         <p className="text-sm mb-10" style={{ color: "#a87d52" }}>
-          Brooklyn, NY &middot; Available Tue–Sun, 7am–6pm
+          NYC
         </p>
         <a
           href="https://www.instagram.com/brulee_._bakery"
