@@ -53,12 +53,11 @@ export default function Home() {
         >
           {/* Photo */}
           <div className="md:w-1/2 relative" style={{ minHeight: "420px" }}>
-            <Image
-              src="/pudding.jpg"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/pudding.jpg`}
               alt="Banana Pudding"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
 
