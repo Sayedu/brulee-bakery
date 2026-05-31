@@ -14,7 +14,7 @@ export default function Footer() {
             Brûlée Bakery
           </span>
         </div>
-        <p>© {new Date().getFullYear()} Brûlée Bakery. Made with love &amp; butter.</p>
+        <p>© {new Date().getFullYear()} Brûlée Bakery. Made with love.</p>
         <div className="flex gap-6">
           <a href="mailto:bruleebakery6@gmail.com" className="hover:underline">✉ bruleebakery6@gmail.com</a>
           <a href="https://www.instagram.com/brulee_._bakery" target="_blank" rel="noopener noreferrer" className="hover:underline inline-flex items-center gap-1.5">
