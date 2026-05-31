@@ -1,0 +1,28 @@
+<svg width="100%" viewBox="0 0 400 400" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Brûlée Bakery Logo</title>
+  <desc>Round badge logo for Brûlée Bakery in yellow pastel</desc>
+
+  <circle cx="200" cy="200" r="185" fill="#fdf3c0"/>
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#c9a227" stroke-width="1"/>
+  <circle cx="200" cy="200" r="158" fill="none" stroke="#e8d070" stroke-width="0.6"/>
+
+  <!-- BB monogram -->
+  <text x="200" y="155" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="700" fill="#7a5c00" text-anchor="middle" letter-spacing="0.3em">BB</text>
+
+  <!-- Decorative lines flanking BB -->
+  <line x1="125" y1="163" x2="170" y2="163" stroke="#c9a227" stroke-width="0.8"/>
+  <line x1="230" y1="163" x2="275" y2="163" stroke="#c9a227" stroke-width="0.8"/>
+
+  <!-- Main name -->
+  <text x="200" y="222" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="700" fill="#7a5c00" text-anchor="middle" letter-spacing="0.06em">BRÛLÉE</text>
+
+  <!-- Rule below name -->
+  <line x1="105" y1="236" x2="295" y2="236" stroke="#c9a227" stroke-width="0.8"/>
+
+  <!-- BAKERY -->
+  <text x="200" y="257" font-family="Georgia, serif" font-size="13" font-weight="400" fill="#a07c10" text-anchor="middle" letter-spacing="0.32em">BAKERY</text>
+
+  <!-- Diamond -->
+  <polygon points="200,278 205,286 200,294 195,286" fill="#c9a227"/>
+</svg>

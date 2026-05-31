@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fef9e7;
+  --foreground: #3b2f1e;
+}
+
+body {
+  background: #fef9e7;
+  color: #3b2f1e;
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+}
+
+.logo-text {
+  font-family: 'Brush Script MT', 'Segoe Script', cursive;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.2s;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #d4a017;
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.card {
+  background: #fffbf0;
+  border: 1px solid #fde68a;
+  border-radius: 1rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px rgba(212, 160, 23, 0.18);
+  transform: translateY(-3px);
+}
+
+.btn-primary {
+  background: #d4a017;
+  color: #fff;
+  border-radius: 9999px;
+  padding: 0.6rem 1.8rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  transition: background 0.2s, transform 0.1s;
+  cursor: pointer;
+  border: none;
+  font-family: 'Georgia', serif;
+}
+
+.btn-primary:hover {
+  background: #b8861a;
+  transform: scale(1.03);
+}
+
+.section-divider {
+  border: none;
+  border-top: 2px dashed #fde68a;
+  margin: 2.5rem auto;
+  width: 60%;
+}
+
+input, textarea, select {
+  background: #fffbf0;
+  border: 1px solid #fde68a;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1rem;
+  width: 100%;
+  font-family: 'Georgia', serif;
+  color: #3b2f1e;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #d4a017;
+}
+
+label {
+  font-size: 0.875rem;
+  color: #7c5c3a;
+  margin-bottom: 0.25rem;
+  display: block;
+}
