@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { asset } from "@/lib/basePath";
 
 export default function Footer() {
   return (
@@ -8,7 +8,8 @@ export default function Footer() {
     >
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm" style={{ color: "#a87d52" }}>
         <div className="flex items-center gap-3">
-          <Image src="/logo.svg" alt="Brûlée Bakery" width={40} height={40} />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={asset("/logo.svg")} alt="Brûlée Bakery" width={40} height={40} />
           <span className="logo-text text-xl" style={{ color: "#7a5c00" }}>
             Brûlée Bakery
           </span>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { asset } from "@/lib/basePath";
 
 const IG_HANDLE = "bruleebakery";
 const IG_DM_URL = `https://ig.me/m/${IG_HANDLE}`;
@@ -13,7 +13,8 @@ export default function OrderPage() {
   return (
     <div className="max-w-lg mx-auto px-6 py-20 text-center">
       <div className="flex justify-center mb-6">
-        <Image src="/logo.svg" alt="Brûlée Bakery" width={100} height={100} />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={asset("/logo.svg")} alt="Brûlée Bakery" width={100} height={100} />
       </div>
 
       <h1 className="logo-text text-5xl mb-3" style={{ color: "#d4a017" }}>

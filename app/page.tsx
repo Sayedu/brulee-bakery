@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import ReviewCarousel from "@/components/ReviewCarousel";
+import { asset } from "@/lib/basePath";
 
 const tiers = [
   { qty: "1 – 10 cups", price: "$5 each", highlight: false },
@@ -16,7 +16,8 @@ export default function Home() {
         style={{ background: "linear-gradient(to bottom, #fef9e7, #fffbf0)" }}
       >
         <div className="flex justify-center mb-6">
-          <Image src="/logo.svg" alt="Brûlée Bakery" width={240} height={240} priority />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={asset("/logo.svg")} alt="Brûlée Bakery" width={240} height={240} />
         </div>
         <h1
           className="logo-text mb-4"

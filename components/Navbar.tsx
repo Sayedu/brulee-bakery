@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { asset } from "@/lib/basePath";
 
 const links = [
   { href: "/", label: "Home" },
@@ -28,13 +28,8 @@ export default function Navbar() {
               lineHeight: 0,
             }}
           >
-            <Image
-              src="/logo.svg"
-              alt="Brûlée Bakery"
-              width={64}
-              height={64}
-              priority
-            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={asset("/logo.svg")} alt="Brûlée Bakery" width={64} height={64} />
           </div>
           <span className="logo-text text-2xl" style={{ color: "#7a5c00" }}>
             Brûlée Bakery
